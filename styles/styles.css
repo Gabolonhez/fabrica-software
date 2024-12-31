@@ -1,0 +1,142 @@
+/* Paleta de cores minimalistas em tons escuros */
+:root {
+    --cor-de-fundo-principal: #181818; /* Preto quase total */
+    --cor-de-fundo-secundaria: #252525; /* Cinza escuro sutil */
+    --cor-do-texto-principal: #f5f5f5; /* Branco suave para contraste */
+    --cor-de-destaque: #d9d9d9; /* Cinza claro para detalhes */
+    --cor-de-acento: #007bff; /* Azul vibrante como ponto focal */
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e clean */
+    background-color: var(--cor-de-fundo-principal);
+    color: var(--cor-do-texto-principal);
+    margin: 0;
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: var(--cor-de-fundo-secundaria);
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--cor-de-destaque); /* Linha sutil para separar */
+  }
+  
+  /* Navegação */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centralizar itens no menu */
+  }
+  
+  nav li {
+    margin: 0 1rem; /* Espaçamento entre os itens do menu */
+  }
+  
+  nav a {
+    color: var(--cor-do-texto-principal);
+    text-decoration: none;
+    font-weight: 500; /* Semi-negrito para destaque sutil */
+    transition: color 0.2s ease-in-out; /* Transição suave na cor */
+  }
+  
+  nav a:hover {
+    color: var(--cor-de-acento);
+  }
+  
+  /* Seções */
+  section {
+    padding: 3rem;
+  }
+  
+  /* Títulos */
+
+  h1 {
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+  
+  h1, h2 {
+    color: var(--cor-do-texto-principal);
+    font-weight: 700; /* Negrito para títulos */
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem; /* Espaçamento após o título */
+  }
+
+  .header__item.login {
+    color: var(--cor-de-fundo-secundaria);
+    width: 128px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+  
+  /* Parágrafos */
+  p {
+    margin-bottom: 1rem; /* Espaçamento entre parágrafos */
+  }
+  
+  /* Links */
+  a {
+    color: var(--cor-de-acento);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Botões */
+  .button {
+    background-color: var(--cor-de-acento);
+    color: var(--cor-do-texto-principal);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Cantos arredondados sutis */
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: darken(var(--cor-de-acento), 10%); /* Escurecer o azul no hover */
+  }
+  
+  /* Formulários */
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input, form textarea, form select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--cor-de-destaque);
+    background-color: var(--cor-de-fundo-secundaria);
+    color: var(--cor-do-texto-principal);
+    border-radius: 5px;
+  }
+  
+  /* Depoimentos */
+  .depoimento {
+    background-color: var(--cor-de-fundo-secundaria);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: var(--cor-de-fundo-secundaria);
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid var(--cor-de-destaque);
+  }
