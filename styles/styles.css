@@ -14,7 +14,7 @@
     margin: 0;
     line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
   }
-  
+
   /* Cabeçalho */
   header {
     background-color: var(--cor-de-fundo-secundaria);
@@ -139,4 +139,14 @@
     padding: 2rem;
     text-align: center;
     border-top: 1px solid var(--cor-de-destaque);
+  }
+
+  .contato-button {
+    border: 1px solid var(--cor-de-destaque);
+    background-color: var(--cor-de-fundo-secundaria);
+    color: var(--cor-do-texto-principal);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
   }
