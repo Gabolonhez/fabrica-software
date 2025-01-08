@@ -47,12 +47,12 @@
     color: var(--cor-de-acento);
   }
   
-  /* Seções */
+  /* Sections */
   section {
     padding: 3rem;
   }
   
-  /* Ttitles */
+  /* Titles */
 
   h1 {
     border: 1px solid black;
@@ -108,6 +108,16 @@
   .button:hover {
     background-color: darken(var(--cor-de-acento), 10%); 
   }
+
+  .contact-button { 
+    border: 1px solid var(--cor-de-destaque);
+    background-color: var(--cor-de-fundo-secundaria);
+    color: var(--cor-do-texto-principal);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+  }
   
   /* Forms */
   form label {
@@ -125,6 +135,22 @@
     border-radius: 5px;
   }
   
+  /* Services */
+  .services__description1 {
+    border: 2px solid var(--cor-de-fundo-secundaria);
+    border-radius: 0.5rem;
+  }
+
+  .services__description2 {
+    border: 2px solid var(--cor-de-fundo-secundaria);
+    border-radius: 0.5rem;
+  }
+
+  .services__description3 {
+    border: 2px solid var(--cor-de-fundo-secundaria);
+    border-radius: 0.5rem;
+  }
+
   /* Testimonials */
   .depoimento {
     background-color: var(--cor-de-fundo-secundaria);
@@ -149,29 +175,44 @@
   
   }
   
-  
-  
-  
   /* Footer */
-  footer {
+  .footer {
     background-color: var(--cor-de-fundo-secundaria);
     padding: 2rem;
     text-align: center;
     border-top: 1px solid var(--cor-de-destaque);
+    gap: 5rem;
   }
 
-  .contact-button { 
-    border: 1px solid var(--cor-de-destaque);
-    background-color: var(--cor-de-fundo-secundaria);
-    color: var(--cor-do-texto-principal);
-    border-radius: 5px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-  }
+
 
   footer ul li {
     list-style-type: none;
+  }
+  
+  .footer__img {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .footer__politics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .rights {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .menu-header-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
   }
 
   
