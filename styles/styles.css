@@ -136,20 +136,50 @@
   }
   
   /* Services */
-  .services__description1 {
+.services__description1 {
     border: 2px solid var(--cor-de-fundo-secundaria);
     border-radius: 0.5rem;
+    width: auto;
+    height: auto;
+  }
+
+.services__description1__services {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
   }
 
   .services__description2 {
+    display: flex;
+
+    justify-content: center;
     border: 2px solid var(--cor-de-fundo-secundaria);
     border-radius: 0.5rem;
+    width: auto;
+    height: auto;
   }
 
+.services__description2__benefits {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
   .services__description3 {
+    display: flex;
+
+    justify-content: center;
     border: 2px solid var(--cor-de-fundo-secundaria);
     border-radius: 0.5rem;
+    width: auto;
+    height: auto;
   }
+
+.services__description3__cicle {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
 
   /* Testimonials */
   .depoimento {
