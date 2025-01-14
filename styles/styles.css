@@ -136,6 +136,16 @@
   }
   
   /* Services */
+
+.services h3 {
+  margin-right: 100px;
+}
+
+.services p, .services ol ul  {
+display: inline;fkle
+}
+
+
 .services__description1 {
     border: 2px solid var(--cor-de-fundo-secundaria);
     border-radius: 0.5rem;
@@ -165,7 +175,7 @@
   margin: 50px;
 }
 
-  .services__description3 {
+.services__description3 {
     display: flex;
 
     justify-content: center;
@@ -179,6 +189,10 @@
   display: flex;
   justify-content: center;
   margin: 50px;
+}
+
+.services button {
+
 }
 
   /* Testimonials */
@@ -213,8 +227,6 @@
     border-top: 1px solid var(--cor-de-destaque);
     gap: 5rem;
   }
-
-
 
   footer ul li {
     list-style-type: none;
