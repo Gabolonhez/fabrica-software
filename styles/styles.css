@@ -137,62 +137,50 @@
   
   /* Services */
 
-.services h3 {
-  margin-right: 100px;
+  .services h3 {
+    margin-right: 0; /* Remova a margem desnecessária */
+    text-align: center; /* Centralize o título */
 }
 
 .services p, .services ol ul  {
 display: inline;fkle
 }
 
-
-.services__description1 {
-    border: 2px solid var(--cor-de-fundo-secundaria);
-    border-radius: 0.5rem;
-    width: auto;
-    height: auto;
-  }
-
-.services__description1__services {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-  }
-
-  .services__description2 {
-    display: flex;
-
-    justify-content: center;
-    border: 2px solid var(--cor-de-fundo-secundaria);
-    border-radius: 0.5rem;
-    width: auto;
-    height: auto;
-  }
-
-.services__description2__benefits {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
+.services ul, .services ol {
+  padding-left: 20px; /* Adicione padding para as listas */
 }
 
+.services__description1,
+.services__description2,
 .services__description3 {
-    display: flex;
-
-    justify-content: center;
     border: 2px solid var(--cor-de-fundo-secundaria);
     border-radius: 0.5rem;
-    width: auto;
-    height: auto;
-  }
-
-.services__description3__cicle {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
+    padding: 20px; /* Adicione padding interno */
+    margin-bottom: 20px; /* Adicione margem inferior entre os blocos */
 }
 
-.services button {
+.services__description1__services,
+.services__description2__benefits,
+.services__description3__cicle {
+    display: flex;
+    flex-direction: column; /* Alinhar conteúdo verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    gap: 20px; /* Espaçamento entre os elementos internos */
+}
 
+.contact-button {
+ display: flex;
+ justify-content: center;
+ justify-self: center;
+ align-items: center;
+ width: 120px;
+ height: 40px;
+ margin: 20px;
+}
+
+.contact-button:hover {
+  font-size: 15px;
+  color: var(--cor-de-acento);
 }
 
   /* Testimonials */
