@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Fábrica de Software</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
     <header>
@@ -21,13 +22,36 @@
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" name="senha" required>
 
-                <button type="submit">Entrar</button>
+                <button type="submit">Acessar</button>
             </form>
         </section>
     </main>
 
+ 
     <footer>
-        <p>&copy; 2023 Fábrica de Software</p>
+        <div class="footer">
+            <div class="footer__img">
+                <a href=""><img src="./assets/images/LinkedIn.png" alt="Logo linkedin"></a>
+                <a href=""><img src="./assets/images/Instagram.png" alt="Logo instagram"></a>
+            </div>
+        <div class="menu-header-footer">
+            <div class="footer__politics">
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
+            </div>
+            <div class="footer__rights">
+                <p>@ 2024. Todos os Direitos Reservados. Fábrica de software.</p>
+              </div>
+            <ul>
+                <li class="header__item-footer"><a href="#servicos">Serviços</a></li>
+                <li class="header__item-footer"><a href="#depoimentos">Depoimentos</a></li>
+                <li class="header__item-footer"><a href="#sobre">Sobre nós</a></li>
+                <li class="header__item-footer"><a href="#contato">Contato</a></li>
+                <li class="header__item--footer login"><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        </div>
     </footer>
-</body>
 </html>
