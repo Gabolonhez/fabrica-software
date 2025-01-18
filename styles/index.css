@@ -63,6 +63,9 @@
   h1, h2 {
     color: var(--cor-do-texto-principal);
     font-weight: 700; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   h2 {
@@ -157,6 +160,7 @@ display: inline;fkle
     border-radius: 0.5rem;
     padding: 20px; /* Adicione padding interno */
     margin-bottom: 20px; /* Adicione margem inferior entre os blocos */
+
 }
 
 .services__description1__services,
@@ -166,6 +170,12 @@ display: inline;fkle
     flex-direction: column; /* Alinhar conteúdo verticalmente */
     align-items: center; /* Centralizar horizontalmente */
     gap: 20px; /* Espaçamento entre os elementos internos */
+}
+
+.services__description3__cicle ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .contact-button {
@@ -184,14 +194,21 @@ display: inline;fkle
 }
 
   /* Testimonials */
-  .depoimento {
+  #depoimentos {
     background-color: var(--cor-de-fundo-secundaria);
     padding: 2rem;
     border-radius: 10px;
-    margin-bottom: 2rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   }
 
+.testimonial {
+  border: 1px solid var(--cor-do-texto-principal);
+  border-radius: 5px; 
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
   /* About us  */
   .sobre {
     background-color: var(--cor-de-fundo-secundaria);
