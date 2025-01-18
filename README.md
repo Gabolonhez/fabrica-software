@@ -27,7 +27,7 @@ Contratos > Plantas > Orçamentos > Topologia > Protótipo >
 
 ## 🎨 Link do Figma
 
-[https://www.reparatec.online/](https://www.figma.com/design/OK5a7cvNkvS6UhWHSy6pzr/F%C3%A1brica-de-software?node-id=0-1&t=RW1Sz9RdGMKl92nB-1)
+https://www.figma.com/design/OK5a7cvNkvS6UhWHSy6pzr/F%C3%A1brica-de-software?node-id=0-1&t=RW1Sz9RdGMKl92nB-1
 
 ## 👨‍💻 Colaboradores
 
