@@ -21,6 +21,7 @@
     border-bottom: 1px solid var(--cor-de-destaque); /* Linha sutil para separar */
   }
 
+
   /* Titles */
 
   h1 {
@@ -59,25 +60,44 @@
     transition: color 0.2s ease-in-out;
   }
   
+.login__container h2 {
+ display: flex;
+ flex-direction: column;
+ justify-self: center;
+ margin-top: 60px;
+}
+
+.login__box {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  justify-content:center; 
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  background-color: var(--cor-de-fundo-secundaria);
+  border: 1px solid;
+  padding: 1rem;
+  width: 400px;
+  border-radius: 5px;
+}
+
   a:hover {
     text-decoration: underline;
   }
 
     /* Forms */
-    form label {
-        display: block;
-        margin-bottom: 0.5rem;
-      }
-      
-      form input, form textarea, form select {
+form input, form textarea, form select {
         width: 100%;
         padding: 0.8rem;
+        gap: 10px;
         margin-bottom: 1rem;
         border: 1px solid var(--cor-de-destaque);
-        background-color: var(--cor-de-fundo-secundaria);
+        background-color: var(--cor-de-fundo-principal);
         color: var(--cor-do-texto-principal);
-        border-radius: 5px;
-      }
+         border-radius: 5px;
+}
+
 
   /* Buttons */ 
   main button {
@@ -108,7 +128,7 @@
   .footer {
     margin-top: 300px;
     background-color: var(--cor-de-fundo-secundaria);
-    padding: 3.9rem;
+    
     text-align: center;
     border-top: 1px solid var(--cor-de-destaque);
     gap: 5rem;
@@ -121,6 +141,10 @@
   .footer__img {
     display: flex;
     gap: 2rem;
+  }
+    
+  .footer div {
+    padding: .5rem;
   }
 
   .footer__politics {

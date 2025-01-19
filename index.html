@@ -9,7 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Fábrica de Software</h1>
+        <img src="./assets/images/Airplay.png" alt="Logo image">
+        <div class="header">
+            <h1>Fábrica de Software</h1>
+        </div>  
         <nav class="menu-header">
             <ul>
                 <li class="header__item"><a href="#servicos">Serviços</a></li>
@@ -47,6 +50,7 @@
             <div class="services__description3">
                 <div class="services__description3__cicle">
                     <h3>Ciclo de desenvolvimento e entrega</h3>
+                    <div class="services__list">
                         <ul>
                             <h4>Planejamento e Escopo:</h4>
                             <li>
@@ -80,41 +84,62 @@
                                 lém de fornecermos suporte técnico contínuo ao cliente para resolver problemas e responder a perguntas e dúvidas.
                             </li>
                         </ul>
+                    </div>
                 </div>
                 <button class="contact-button"><a href="#contato">Entrar em contato</a></button>
             </div>
         </section>
         <section id="depoimentos">
             <h2>Depoimentos</h2>
-            <div class="testimonial">
-                <p>"A Fábrica de Software entregou um website incrível que superou nossas expectativas! A equipe foi muito profissional e atenciosa, e o resultado final foi um site moderno, funcional e que realmente representa a nossa marca."</p>
-                <p><strong>Empresa A</strong> - Empresa de Tecnologia</p>
-            </div>
-            <div class="testimonial">
-                <p>"Estamos muito satisfeitos com o website que a Fábrica de Software desenvolveu para nós. O site é rápido, intuitivo e tem gerado muitos leads para o nosso negócio. Recomendamos os seus serviços!"</p>
-                <p>Empresa B - Empresa de Marketing Digital</p>
+            <div class="testimonial__itens">
+                <div class="testimonial">
+                    <div class="desc">
+                        <p>"A Fábrica de Software entregou um website incrível que superou nossas expectativas! A equipe foi muito profissional e atenciosa, e o resultado final foi um site moderno, funcional e que realmente representa a nossa marca."</p>
+                        <p>Empresa A - Empresa de Tecnologia</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="desc">
+                        <p>"Estamos muito satisfeitos com o website que a Fábrica de Software desenvolveu para nós. O site é rápido, intuitivo e tem gerado muitos leads para o nosso negócio. Recomendamos os seus serviços!"</p>
+                        <p>Empresa B - Empresa de Marketing Digital</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="desc">
+                        <p>"Estamos muito satisfeitos com o website que a Fábrica de Software desenvolveu para nós. O site é rápido, intuitivo e tem gerado muitos leads para o nosso negócio. Recomendamos os seus serviços!"</p>
+                        <p>Empresa B - Empresa de Marketing Digital</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="sobre">
             <h2>Sobre Nós</h2>
-            <p>Nossa missão é impulsionar o sucesso de pequenas e médias empresas através de websites de alta qualidade, que geram resultados e fortalecem a presença online.</p>
-            <p>Nossa visão é ser referência em desenvolvimento web, reconhecida pela excelência dos nossos serviços e pela satisfação dos nossos clientes.</p>
-            <p>Nossos valores são: compromisso com o cliente, inovação, qualidade, trabalho em equipe e ética.</p>
-            <h3>Nossa História</h3>
-            <p>A Fábrica de Software foi fundada em 2023 por um grupo de desenvolvedores apaixonados por tecnologia e com o objetivo de oferecer soluções web inovadoras e acessíveis para pequenas e médias empresas. Desde então, temos ajudado diversas empresas a construir uma presença online forte e alcançar seus objetivos de negócio.</p>
+            <div class="about__content">
+                <p>Nossa <span>missão</span> é impulsionar o sucesso de pequenas e médias empresas através de websites de alta qualidade, que geram resultados e fortalecem sua presença online.</p>
+                <p>Nossa <span>visão</span> é ser referência em desenvolvimento web inovador, reconhecida pela excelência dos nossos serviços e pela satisfação dos nossos clientes.</p>
+                <p>Nossos <span>valores</span> são: </p>
+                <ul>
+                    <li>Compromisso com o cliente</li>
+                    <li>Inovação</li>
+                    <li>Qualidade</li>
+                </ul>
+                <br>
+                <h3>Nossa História</h3>
+                <p>A Fábrica de Software foi fundada em 2023 por um grupo de desenvolvedores apaixonados por tecnologia e com o objetivo de oferecer soluções web inovadoras e acessíveis para pequenas e médias empresas. Desde então, temos ajudado diversas empresas a construir uma presença online forte e alcançar seus objetivos de negócio.</p>
+            </div>
         </section>
 
         <section id="contato">
             <h2>Contato</h2>
             <form action="#" method="post">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="Insira seu e-mail corporativo" required>
 
                 <label for="mensagem">Mensagem:</label> 
-                <textarea id="mensagem" name="mensagem" required></textarea>
+                <textarea id="mensagem" name="mensagem" placeholder="Descreva resumidamente o que você precisa" required></textarea>
                 <button class="contact-button" type="submit">Enviar</button>
             </form>
         </section>
@@ -146,5 +171,7 @@
         </div>
         </div>
     </footer>
+    <script src="./scripts/contact.js" defer></script>
+    <script src="./scripts/login.js" defer></script>
 </body>
 </html>

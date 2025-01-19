@@ -9,24 +9,29 @@
 </head>
 <body>
     <header>
-        <h1>Fábrica de Software</h1>
+        <img src="./assets/images/Airplay.png" alt="Logo image">
+        <div class="header">
+            <h1>Fábrica de Software</h1>
+        </div>  
     </header>
 
     <main>
-        <section>
+        <section class="login__container">
             <h2>Login</h2>
-            <form action="#" method="post">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <div class="login__box">
+                <form method="post">
 
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Insira seu e-mail cadastrado" required>
 
-                <button type="submit">Acessar</button>
-            </form>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="password" name="senha" placeholder="Insira sua senha" required>
+
+                    <button type="submit">Acessar</button>
+                </form>
+            </div>
         </section>
     </main>
-
  
     <footer>
         <div class="footer">
@@ -54,4 +59,7 @@
         </div>
         </div>
     </footer>
+    <script src="./scripts/contact.js" defer></script>
+    <script src="./scripts/login.js" defer></script>        
+    </body>
 </html>
