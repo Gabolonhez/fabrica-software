@@ -20,7 +20,13 @@
     text-align: center;
     border-bottom: 1px solid var(--cor-de-destaque); /* Linha sutil para separar */
   }
-
+  .header a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 35px;
+    transition: font-size 0.3s ease-in-out;
+  }
+  
 
   /* Titles */
 
