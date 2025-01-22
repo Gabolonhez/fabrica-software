@@ -20,6 +20,7 @@
     text-align: center;
     border-bottom: 1px solid var(--cor-de-destaque); /* Linha sutil para separar */
   }
+
   .header a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -50,7 +51,6 @@
 
   /* Header */
 
-  
   .header__item.login {
     color: var(--cor-de-fundo-secundaria);
     width: 128px;
@@ -66,6 +66,9 @@
     transition: color 0.2s ease-in-out;
   }
   
+  /* main */
+
+  /* login box */
 .login__container h2 {
  display: flex;
  flex-direction: column;
@@ -101,9 +104,8 @@ form input, form textarea, form select {
         border: 1px solid var(--cor-de-destaque);
         background-color: var(--cor-de-fundo-principal);
         color: var(--cor-do-texto-principal);
-         border-radius: 5px;
+        border-radius: 5px;
 }
-
 
   /* Buttons */ 
   main button {
