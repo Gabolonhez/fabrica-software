@@ -30,7 +30,6 @@
     transition: font-size 0.3s ease-in-out;
   }
   
-  
   /* Navigation */
   nav ul {
     list-style: none;
@@ -148,13 +147,13 @@
   
   /* Services */
 
-  .services h3 {
+.services h3 {
     margin-right: 0; /* Remova a margem desnecessária */
     text-align: center; /* Centralize o título */
 }
 
 .services p, .services ol ul  {
-display: inline;fkle
+display: inline;
 }
 
 .services ul, .services ol {
@@ -168,7 +167,6 @@ display: inline;fkle
     border-radius: 0.5rem;
     padding: 20px; /* Adicione padding interno */
     margin-bottom: 20px; /* Adicione margem inferior entre os blocos */
-
 }
 
 .services__description1__services,
