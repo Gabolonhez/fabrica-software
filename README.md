@@ -1,5 +1,7 @@
 # Fábrica de software
 
+![image](https://github.com/user-attachments/assets/eaa4612d-b445-45fc-a7d8-0f5267604790)
+
 ## 📑 Descrição
 
 A Fábrica de software é um projeto no qual será desenvolvido um site visando apresentar a empresa e prospectar novos clientes, projeto iniciado no Centro Universitário Fundação Santo André. 
