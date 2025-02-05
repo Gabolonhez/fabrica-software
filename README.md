@@ -7,18 +7,16 @@
 A Fábrica de software é um projeto no qual será desenvolvido um site visando apresentar a empresa e prospectar novos clientes, projeto iniciado no Centro Universitário Fundação Santo André. 
 ![image](https://github.com/user-attachments/assets/a63a2ec1-69bb-4ff7-bf31-9e47dcbe17e8)
 
-<!-- ## 🎯 Funcionalidades
+## 🎯 Funcionalidades
 
-- [x] ``: Permite os usuários cadastrar e acessar a plataforma (técnico ou empresa). <br> -->
-
+- [x] Permite os usuários cadastrados acessarem a plataforma. <br> 
+- [x] Permite os usuários navegarem, enviar mensagem e responder o formulário.
+      
 ## 💻 Tecnologias 
 
-`HTML`: Linguagem utilizada para desenvolver a as páginas do aplicativo.
-
-`CSS`: Utilizado para estilização da interface do aplicativo.
-
-`JavaScript`: Linguagem de programação utilizada para desenvolver a lógica do aplicativo.
-
+- `HTML`
+- `CSS`
+- `JavaScript`
 
 ## 🛠️ Etapas realizadas
 
