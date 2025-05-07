@@ -147,6 +147,10 @@
   
   /* Services */
 
+.services h2 {
+  align-items: center;
+}
+
 .services h3 {
     margin-right: 0; /* Remova a margem desnecessária */
     text-align: center; /* Centralize o título */
@@ -184,6 +188,10 @@ display: inline;
   gap: 10px;
 }
 
+.services__description1__services p {
+  text-align: justify;
+}
+
 .contact-button {
  display: flex;
  justify-content: center;
@@ -202,7 +210,7 @@ display: inline;
   /* Testimonials */
   #depoimentos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: var(--cor-de-fundo-secundaria);
     padding: 4rem;
     border-radius: 10px;
@@ -210,7 +218,7 @@ display: inline;
   }
 
   #depoimentos h2 {
-    justify-content: start;
+    align-items: center;
   }
 
   .testimonial__itens  {
@@ -253,7 +261,13 @@ display: inline;
     text-decoration: none;
     margin-left: 20px;
   }
+  
   /* Our history */
+  
+  #sobre h2 {
+    align-items: center;
+  }
+
   #sobre h3 {
     margin-bottom: 1.5rem;
   
@@ -278,6 +292,7 @@ display: inline;
   .footer__img {
     display: flex;
     gap: 2rem;
+    margin: 10px 10px;
   }
 
   .footer__politics {
